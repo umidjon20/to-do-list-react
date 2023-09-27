@@ -1,0 +1,16 @@
+form {
+	display: flex;
+	width: 100%;
+	align-items: flex-end;
+	column-gap: 25px;
+	input{
+		flex-grow: 1;
+		padding: 15px 25px;
+		font-size: 24px;
+		color: white;
+		background-color: transparent;
+		border: 0;
+		outline: 0;
+		border-bottom: 5px solid #d63031;
+	}
+}

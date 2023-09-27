@@ -1,0 +1,30 @@
+.todo-list {
+	display: flex;
+	flex-direction: column;
+	row-gap: 25px;
+	width: 100%;
+	list-style: none;
+	padding: 0;
+	li{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		column-gap: 25px;
+		border-bottom: 3px solid rgb(217, 217, 217);
+		padding: 15px 5px;
+		input[type="checkbox"]{
+			width: 30px;
+			height: 30px;
+			&:checked ~ .todo-text{
+				text-decoration: line-through;
+			}
+		}
+		.todo-text{
+			flex-grow: 1;
+		}
+		.close-btn{
+			cursor: pointer;
+			font-size: 30px;
+		}
+	}
+}

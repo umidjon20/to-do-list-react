@@ -1,0 +1,12 @@
+.deleteItemPage{
+    width: 350px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 2rem;
+   span{
+    text-align: right;
+    cursor: pointer;   
+   }
+}

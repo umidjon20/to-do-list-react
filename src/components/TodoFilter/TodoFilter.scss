@@ -1,0 +1,27 @@
+.todo-filter{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  // background: red;
+  li{
+    list-style: none;
+    cursor: pointer;
+    &.active{
+      color:#d63031;
+    }
+    &:hover{
+      color:#d63031;
+    }
+  }
+
+  .recycle{
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+    cursor: pointer;
+    img{
+      width: 30px;
+    }
+  }
+}
